@@ -1,77 +1,336 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Jianpeng Xu by Jianpeng-Xu</title>
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://www.ofria.com/ Website deisgn by courtesy of Dr. Charles Ofria -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Homepage of Jianpeng Xu</title>
+  <link rel="stylesheet" href="./stylesheets/main.css">
+  <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.0/themes/base/jquery-ui.css">
+  <script src="./javascripts/jquery-1.8.3.js"></script>
+  <script src="./javascripts/jquery-ui.js"></script>
+<!--  <link rel="stylesheet" href="http://www.ofria.com/resources/demos/style.css"> -->
+  <script>
+  $(function() {
+    $( "#tabs" ).tabs();
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="javascripts/scale.fix.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    $( "#dialog-complex" ).dialog({
+	    autoOpen: false,
+	    modal: true,
+	    width: 800,
+	    show: {
+		    effect: "scale",
+		    duration: 500
+		},
+		hide: {
+			effect: "scale",
+			duration: 500
+		}
+	});
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="without-description">
-        <h1>Jianpeng Xu</h1>
-        <p></p>
-        <p class="view"><a href="https://github.com/Jianpeng-Xu">View the Project on GitHub <small>Jianpeng-Xu</small></a></p>
-        <ul>
-          <li class="single"><a href="https://github.com/Jianpeng-Xu/jianpeng-xu.github.com">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+	$( "#opener-complex" ).click(function() {
+		$( "#dialog-complex" ).dialog( "open" );
+	});
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
+    $( "#dialog-division" ).dialog({
+	    autoOpen: false,
+	    modal: true,
+	    width: 800,
+	    show: {
+		    effect: "scale",
+		    duration: 500
+		},
+		hide: {
+			effect: "scale",
+			duration: 500
+		}
+	});
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+	$( "#opener-division" ).click(function() {
+		$( "#dialog-division" ).dialog( "open" );
+	});
+  });
+  </script>
+  <style>
+  .ui-tabs-vertical { width: 55em; }
+  .ui-tabs-vertical .ui-tabs-nav { padding: .2em .1em .2em .2em; float: left; width: 12em; }
+  .ui-tabs-vertical .ui-tabs-nav li { clear: left; width: 100%; border-bottom-width: 1px !important; border-right-width: 0 !important; margin: 0 -1px .2em 0; }
+  .ui-tabs-vertical .ui-tabs-nav li a { display:block; }
+  .ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { padding-bottom: 0; padding-right: .1em; border-right-width: 1px; border-right-width: 1px; }
+  .ui-tabs-vertical .ui-tabs-panel { padding: 1em; float: right; width: 40em;}
+  </style>
+</head>
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+<body bgcolor="#FFFFFF" text="#000000" link="#0000AA" alink="#0000FF" vlink="#000044">
 
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
+<center>
+<table border="2" bgcolor="#FFFFFF" width="95%"><tbody><tr><td>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+<table border="2" bgcolor="#F8F8FF" width="100%">
+<tbody><tr>
+<td>
+<h1 align="center">Jianpeng Xu</h1>
+</td>
+</tr>
+</tbody></table>
 
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
+<p align="center">
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
+</p><div id="tabs" class="ui-tabs ui-widget ui-widget-content ui-corner-all">
+  <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
+    <li class="ui-state-default ui-corner-top ui-tabs-active ui-state-active ui-state-focus" role="tab" tabindex="0" aria-controls="tabs-overview" aria-labelledby="ui-id-1" aria-selected="true"><a href="#tabs-overview" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">Overview</a></li>
+    <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-pubs" aria-labelledby="ui-id-2" aria-selected="false"><a href="./#tabs-pubs" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-2">Publications</a></li>
+    <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-teaching" aria-labelledby="ui-id-3" aria-selected="false"><a href="./#tabs-teaching" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-3">Teaching</a></li>
+    <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-service" aria-labelledby="ui-id-4" aria-selected="false"><a href="./#tabs-service" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-4">Service</a></li>
+	<li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-award" aria-labelledby="ui-id-5" aria-selected="false"><a href="./#tabs-award" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-5">Awards</a></li>
+    <li class="ui-state-default ui-corner-top" role="tab" tabindex="-1" aria-controls="tabs-links" aria-labelledby="ui-id-6" aria-selected="false"><a href="./#tabs-links" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-6">Links</a></li>
+  </ul>
+  <div id="tabs-overview" aria-labelledby="ui-id-1" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="true" aria-hidden="false" style="display: block;">
+	<table><tbody><tr>
+	<td width="70%" valign="top">
+    <img src="images/h_large_XD6q_781f00014e712f76.jpg" width="200" align="left" hspace="10" vspace="10">
 
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+    <p>
+      <big><b>Jianpeng Xu</b></big><br>
+      Ph.D Student of
+      <a href="http://www.cse.msu.edu/" target="_blank">Computer Science and Engineering</a>, <a href="http://www.msu.edu/" target="_blank">Michigan State University</a><br>
+    </p>
+    <p>
+      <b>Short Biography</b><br>
+      <small>
+      Jianpeng Xu started his Ph.D study in 2011 Fall, under the supervision of <a href="http://www.cse.msu.edu/~ptan/" target="_blank">Dr. Pang-Ning Tan</a>. He received his MS in Computer Science, Harbin Institute of Technology in 2010 and BS in Computer Science, Shandong University in 2007. Jianpeng has a broad research interest in Data Mining and Machine Learning, which includes network mining, change detection, frequent pattern mining, multi-task learning, online learning, spatio-temporal data mining, and data mining and machine learning foundamental algorithms and their applications. His thesis topic is Multi-task learning and its applications on Spatio-temporal data. He interned at <a href="http://www.narus.com" target="_blank">Narus (Boeing Inc)</a> in 2012, where he worked on designing data mining algorithm to detect malicious behaviors in network traffic. In summer 2014, he interned at <a href="http://www.sra.samsung.com/" target="_blank">Samsung Research America</a> and worked on user behavior and demographics analysis for Samsung Smart TV.  
+      </small>
+    </p>
+        
+           <small><b><a href="./docs/JianpengXu-CV.pdf" target="_blank">Click here for my full CV</a></b> </small><br>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+<br><br>
+	</td>
+   </tr>
+   <tr>
+	<td valign="top">
+	<small>
+	  <b>Recent News:</b><br>
+	  <table>
+	  <tbody>
+      <tr><td valign="top">2/10/2015</td> <td>Jianpeng will give an oral presentation for his paper "Formula: FactORized MUlti-task LeArning for task discovery in personalized medical models" on <b>SDM 2015</b>.</td></tr>
 
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
+      <tr><td valign="top">12/25/2014</td> <td>Jianpeng's paper "Formula: FactORized MUlti-task LeArning for task discovery in personalized medical models" is accepted by <b>SDM 2015</b>.</td></tr>
 
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-    <footer>
-      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
-    </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("Tracking ID UA-20336916-1");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
+      <tr><td valign="top">12/14/2014</td> <td>Jianpeng will give an oral presentation for his paper "ORION: Online Regularized multI-task regressiON and its application to ensemble forecasting" on <b>ICDM 2014</b></td></tr>
 
-  </body>
+      <tr><td valign="top">10/30/2014</td> <td>Jianpeng received Student Travel Award from <b>ICDM 2014</b></td></tr>
+
+      <tr><td valign="top">10/14/2014</td> <td>Jianpeng's paper "ORION: Online Regularized multI-task regressiON and its application to ensemble forecasting" is accepted by <b>ICDM 2014</b></td></tr>
+   	  </tbody>
+      </table>
+	</small>
+	</td>
+	</tr>
+	</tbody></table>
+        
+  </div>
+  <div id="tabs-pubs" aria-labelledby="ui-id-2" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <br>
+
+    <h3>P<small>EER</small>-R<small>EVIEWED </small>P<small>UBLICATIONS</small></h3>
+    <small>
+    <ol> 
+    <li><i>Formula: FactORized MUlti-task LeArning for task discovery in personalized medical models</i><br>
+ 	   	Jianpeng Xu, Jiayu Zhou and Pang-Ning Tan <br>
+        <b>SDM2015</b> (<a href="publications/2015-xu-SDM-Formula.pdf" target="_blank">Paper</a>)
+    </li>
+    <li><i>ORION: Online Regularized multI-task regressiON and its application to ensemble forecasting</i><br>
+	    Jianpeng Xu, Pang-Ning Tan and Lifeng Luo <br>
+    	<b>ICDM2014</b> (<a href="publications/2014-xu-ICDM-ORION.pdf" target="_blank">Paper</a>)
+    </li>
+    <li><i>HDminer: Efficient Mining of High Dimensional Frequent Closed Patterns from Dense Data and Its Application</i> <br>
+    	Jianpeng Xu and Shufan Ji    <br>
+        <b>ICDMW2014</b> on Scalable Data Analytics: Theory and Applications (<a href="publications/2014-xu-ICDMW-HDMiner.pdf" target="_blank">Paper</a>)
+    </li>
+    <li><i>Detecting Malicious Clients in ISP Networks Using HTTP Connectivity Graph and Flow Information</i><br>
+    	Lei Liu, Sabyasachi Saha, Ruben Torres, Jianpeng Xu, Pang-Ning Tan, Antonio Nucci,
+Marco Mellia<br>
+		<b>ASONAM2014</b> (<a href="publications/2014-liu-ASONAM-dmc.pdf" target="_blank">Paper</a>)
+    </li> 
+    </ol>
+    </small>
+    
+    <h3>P<small>ATENT</small></h3>
+    <small>
+    <ol> 
+    <li><i>Detecting Malicious Endpoints Using Network Connectivity and Flow Information</i><br>
+ 	   	Sabyasachi Saha, Lei Liu, Ruben Torres, Jianpeng Xu, Antonio Nucci <br>
+        Publication Number:  US8813236 B1 (<a href="http://www.google.com/patents/US8813236" target="_blank">Link</a>)
+    </li>
+    </ol>
+    </small>
+    
+  </div>
+
+<!--  <div id="tabs-research" aria-labelledby="ui-id-2" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+    
+    <h3>Research Interests</h3>
+
+    <p>
+ 	<small>&nbsp;&nbsp;(Click on images for more information.)</small>
+    </p>
+
+    
+
+	<table cellpadding="5">
+	<tbody><tr>
+	<td valign="top">
+    <b>The Evolution of Biological Complexity</b>: A major focus in my research group is understanding how evolution progresses from simple forms to
+    complex ones.  We study this topic from many directions, including understanding the selective pressures that promote complexity, measuring
+    the flow of information into a genome, and experimenting with different genetic architectures.  In all cases, we use digital organisms that allow
+    for rapid evolution (tens of thousands of generations in a day), the ability to fully control environmental conditions, and complete transparency
+    in collecting data.
+	</td>
+	<td valign="top">
+	<button id="opener-complex"><img src="./Homepage of Dr. Charles Ofria_files/FlameGraph2 - small.png" width="180"></button>
+	</td>
+	</tr>
+	</tbody></table>
+
+    
+    
+
+	<table cellpadding="5">
+	<tbody><tr>
+	<td valign="top">
+	<button id="opener-division"><img src="./Homepage of Dr. Charles Ofria_files/Division of Labor Example - small.png" width="180"></button>
+	</td>
+	<td valign="top">
+    <b>Major Transitions in Evolution</b>: There have been many major evolutionary events that have allowed modern organisms to attain
+    remarkable levels of complexity.  Most of these entail transitions where either individuals come together to form a greater whole (e.g.,
+    cells in a multi-cellular organism) or entirely new ways of individuals interacting (e.g., sexual recombination).
+    We use digital evolution systems to examine the environmental pressures that lead to these powerful evolutionary events, with an interest
+    both in understanding how these events occurred in nature and harnessing them for similarly profound changes in evolved artificial systems. 
+	</td>
+	</tr>
+	</tbody></table>
+
+    
+	<table cellpadding="5">	    
+	<tbody><tr><td valign="top">
+    <b>The Evolution of Intelligence</b>: The origin of natural intelligence is of fundamental interest to both biologists, who are
+    fascinated by the dynamics that can produce behaviors of such sheer complexity, as well as to engineers who wish to duplicate
+    these capabilities in computational media.  We examine the evolutionary emergence of intelligent responses in digital evolution
+    systems, with the dual-goals of improving our understanding of evolutionary dynamics and exploiting their constructive potential
+    to produce robust intelligence in applied systems. 
+	</td>
+	</tr>
+	</tbody></table>
+	
+    <h3>Resources to learn more about my research</h3>
+    <ul>
+    <a href="http://www.microbeworld.org/podcasts/meet-the-scientist/784-mts59-charles-ofria">A Meet the Scientist Podcast Interview</a> with me from 2010.
+    </ul>
+    <ul>
+    <a href="http://discovermagazine.com/2005/feb/cover/#.URRxZOjZrbI">Testing Darwin</a> - Cover Story from 2005 Discover Magazine
+    </ul>
+    <ul>
+    <a href="http://www.ofria.com/pubs/2009AvidaIntro.pdf">An Introduction to the Avida Software</a>
+    </ul>
+    <br>
+
+  </div> -->
+
+  <div id="tabs-teaching" aria-labelledby="ui-id-3" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <h3>Course Taught (Teaching Assistant)</h3>
+
+	<hr>
+
+    <p>
+    <img src="./images/datamining.jpg" width="100" align="left" hspace="10">
+ 	CSE881: Data Mining <br>
+    including: Data Preprocessing, Classification, Regression, Association Analysis, Clustering, Anomaly Detection, Network Mining, Data Stream Mining
+    </p>
+
+	<hr>
+    <p>
+  	CSE491/891: Computational Techniques for Large-Scale Data Analysis <br>
+    including: Data Collection, Storage, and Preprocessing, Data Analysis (Classification, Regression, Clustering, etc.), Implementation (Programming based on Mapreduce, Hadoop, Hive, Pig, etc.), Case Study and Applications
+    </p></div>
+
+  <div id="tabs-service" aria-labelledby="ui-id-4" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <h3>Service</h3>
+
+	<hr>
+
+    <p>
+	<ul> 
+<li>2015 PC Member, International Workshop on Machine Learning Methods for Recommender Systems (MLRec) in conjunction with SDM 2015</li>
+<li>Reviewers for CIKM2014, DSAA2014, ICDM2014, SDM2015, WSDM2015</li>
+</ul>
+    
+    </p>
+
+</div>
+
+  <div id="tabs-award" aria-labelledby="ui-id-5" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+    <h3>Awards:</h3>
+
+	<hr>
+
+    <p>
+	<ul> 
+<li>Student Travel Award: <b>ICDM</b> 2014, <b>MSU Graduate School</b> 2014</li>
+<li>Honorable Mention Award in Mathematical Contest in Modeling (<b>MCM</b>), 2006</li>
+
+
+</ul>
+    
+    </p>
+
+</div>
+
+
+  <div id="tabs-links" aria-labelledby="ui-id-6" class="ui-tabs-panel ui-widget-content ui-corner-bottom" role="tabpanel" aria-expanded="false" aria-hidden="true" style="display: none;">
+  	<small>
+  	<table>
+  	<tbody><tr><td valign="top" width="50%">
+  	<b>My Advisor</b>
+  	<ul>
+  		<li><a href="http://www.cse.msu.edu/~ptan" target="_blank">Dr. Pang-Ning Tan</a> Associate Professor, CSE, MSU</li>
+  	</ul>
+  	
+  	<b>Collaborators</b>
+  	<ul>
+  		<li><a href="http://drought.geo.msu.edu/group/" target="_blank">Dr. Lifeng Luo</a> - Assistant Professor, Geography, MSU</li>
+  		<li><a href="http://0xmachine.com/" target="_blank">Dr. Jiayu Zhou</a> - Senior Research Scientist , Samsung Research America</li>
+  		<li><a href="http://www.aboutdm.com/p/about.html" target="_blank">Dr. Junling Hu</a> - Director of Data Mining Group, Samsung Research America</li>
+  	</ul>
+  	
+  	</td><td valign="top">
+    <b>Affiliations</b>
+    <ul>
+    	  <li><a href="http://www.sra.samsung.com/" target="_blank">Samsung Research America</a></li>
+		  <li><a href="http://www.narus.com/" target="_blank">Narus (Boeing, inc.)</a></li>
+   		  <li><a href="http://msudminer.weebly.com/" target="_blank">Data Mining Group @ MSU (DMiners)</a></li>
+	      <li><a href="http://www.cse.msu.edu/" target="_blank">Department of Computer Science and Engineering</a></li>
+          <li><a href="http://egr.msu.edu/" target="_blank">MSU College of Engineering</a></li>
+          <li><a href="http://www.msu.edu/" target="_blank">Michigan State University</a></li>
+    </ul>
+        
+    <b>Former Affiliations</b>
+    <ul>
+          <li><a href="http://www.hit.edu.cn/" target="_blank">Harbin Institute of Technology</a></li>
+	      <li><a href="http://www.hitsz.edu.cn/" target="_blank">Harbin Institute of Technology, Shenzhen Graduate School</a></li>
+	      <li><a href="http://www.sdu.edu.cn/" target="_blank">Shandong University</a></li>
+    </ul>
+  	</td>
+  	</tr>
+    
+  	</tbody></table>
+  	</small>
+  </div>
+</div>
+
+
+<p>
+</p></td></tr></tbody></table>
+
+</center>
+
+</body>
 </html>
